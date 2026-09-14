@@ -1,0 +1,20 @@
+[project]
+name = "2026-sbpo-workshop"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "hierarchicalforecast>=1.5.1",
+    "mlforecast>=1.0.31",
+    "statsforecast>=2.0.3",
+    "utilsforecast>=0.2.15",
+    "xgboost>=3.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "gdal==3.8.4",
+    "pyarrow>=23.0.1",
+    "pysus==1.0.1",
+]
